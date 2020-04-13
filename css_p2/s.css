@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: royalblue;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+}
+.menu{
+    float: right;
+    line-height: 100px;
+}
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+body {
+    background-image: url(back2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+div.text_container1 {
+    background-color: rgb(35, 35, 39);
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+div.text_container1 h3{
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: lavender;
+    background-color: rgb(19, 18, 22);
+}
+
+div.text_container1 h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: lavender;
+    background-color: rgb(19, 18, 22);
+}
+
+div.text_container1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:210px 10px 10px 10px;
+    height: 250px;
+    width: auto;
+}
+
+div.text_container1 img.ex2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:100px 10px 10px 10px;
+    height: 250px;
+    width: auto;
+}
+
+
+div.text_container1 p{  
+    margin: 0;
+    position: absolute;                                      
+    /* margin-top: 10px; */
+    font-size: 20px;
+    font-family: sans-serif;
+    color: lavender;
+    /* margin-left: 25%; */
+    margin-right: 23%;
+    /* text-align: center; */
+    background-color:  rgb(35, 35, 39);
+}
+
+
+div.text_container1 img.ex3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:100px 10px 10px 10px;
+    height: 50px;
+    width: auto;
+}
+
+div.text_container1 img.ex4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:150px 10px 10px 10px;
+    height: 250px;
+    width: auto;
+}
+
+div.text_container1 h5{
+    margin-top: 10px;
+    padding:104px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: lavender;
+    background-color: rgb(19, 18, 22);
+}
+
+div.text_container1 h6{
+    margin-top: 10px;
+    padding:200px 0px 0px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: lavender;
+    background-color: rgb(19, 18, 22);
+}
+
+div.text_container1 img.ex6{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:120px 10px 10px 10px;
+    height: 60px;
+    width: auto;
+}
+
+div.text_container1 img.ex5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding:10px 10px 10px 10px;
+    height: 200px;
+    width: auto;
+}

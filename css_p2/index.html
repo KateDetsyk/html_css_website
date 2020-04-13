@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTMLCSS</title>
+        <link href="css_p2/s.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="header">
+            <h2 class="logo">About css</h2>
+            <ul class="menu">
+                <a href="../index.html">HOME</a>
+                <a href="../page1.html">HTML</a>
+                <a href="../page1_css.html">CSS</a>
+                <a href="../about.html">ABOUT</a>
+            </ul>
+        </div>
+        <div class="text_container1">
+            <h3>Selectors</h3>
+            <p>
+                <br>You can't talk about CSS without meeting selectors, and we have 
+                already discovered several different types in the Getting started with
+                 CSS tutorial. A selector is how we target something in our HTML 
+                 document in order to apply styles to it. If your styles are not 
+                 applying then it is likely that your selector does not match the
+                  thing you think it should match.
+                <br><br>Each CSS rule starts with a selector or a list of
+                 selectors in order to tell the browser which element or elements the 
+                 rules should apply to. All of the following are examples of valid 
+                 selectors, or lists of selectors.
+            </p>
+            <img src="css_p2/pic1.png" alt="Example 1">
+            <h4>Specificity</h4>
+           <p>
+            <br>There will often be scenarios where two selectors could select the same 
+            HTML element. Consider the stylesheet below where I have a rule with a p 
+            selector that will set paragraphs to blue, and also a class that will set 
+            selected elements red.
+            </p>
+            <img class="ex2" src="css_p2/pic2.png" alt="Example 2">
+            <p><br>Let's say that in our HTML document we have a paragraph with a class of 
+                special. Both rules could apply, so which one wins? What color do you think 
+                our paragraph will become?
+            </p>
+            <img class="ex3" src="css_p2/pic3.png" alt="Example 2">
+            <p>
+                <br>The CSS language has rules to control which rule will win in the event of a 
+                collision — these are called cascade and specificity. In the below code block
+                 we have defined two rules for the p selector, but the paragraph ends up 
+                 being colored blue. This is because the declaration that sets it to blue 
+                 appears later in the stylesheet, and later styles override earlier ones. 
+                 This is the cascade in action.
+            </p>
+            <img class="ex4" src="css_p2/pic4.png" alt="Example 4">
+
+            <p>
+                <br>However, in the case of our earlier block with the class selector and the 
+                element selector, the class will win, making the paragraph red — even though 
+                it appears earlier in the stylesheet. A class is described as being more 
+                specific, or having more specificity than the element selector, so it wins.
+            </p>
+            <h5>Properties and values</h5>
+            <p>
+                <br>
+                At its most basic level, CSS consists of two building blocks:
+                <br><br>
+                <strong>Properties</strong>: Human-readable identifiers that indicate which 
+                stylistic features (e.g. font-size, width, background-color) you want to 
+                change.
+                <br><br>
+                <strong>Values</strong>: Each specified property is given a value, which 
+                indicates how you want to change those stylistic features (e.g. what you 
+                want to change the font, width or background color to.)
+                <br>
+                <br>
+            </p>
+            <h6>Functions</h6>
+            <p>
+                <br>
+                While most values are relatively simple keywords or numeric values, there 
+                are some possible values which take the form of a function. An example would
+                 be the <strong>calc()</strong> function. This function allows you to do simple math from 
+                 within your CSS, for example:
+            </p>
+            <img class="ex6" src="css_p2/pic6.png" alt="Example 4">
+            <img class="ex5" src="css_p2/pic5.png" alt="Example 4">
+
+            </div>
+    </body>

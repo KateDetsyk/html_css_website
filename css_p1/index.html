@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTMLCSS</title>
+        <link href="css_p1/s.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="header">
+            <h2 class="logo">About css</h2>
+            <ul class="menu">
+                <a href="../index.html">HOME</a>
+                <a href="../page1.html">HTML</a>
+                <a href="../page1_css.html">CSS</a>
+                <a href="../about.html">ABOUT</a>
+            </ul>
+        </div>
+        <div class="text_container1">
+            <h3>Applying CSS to your HTML</h3>
+            <h4>External stylesheet</h4>
+            <img src="css_p1/pic2.png" alt="Example 1">
+            <img class="ex2" src="css_p1/pic3.png" alt="Example 2">
+            <p>
+                <br><br>  The href attribute of the <strong>link</strong> element needs to reference a file on your filesystem.
+                <br><br>  In the example above, the CSS file is in the same folder as the HTML document, but you could place it 
+                somewhere else and adjust the specified path to suit, for example:
+            </p>
+            <img class="ex3" src="css_p1/pic5.png" alt="Example 2">
+            <h5>Internal stylesheet</h5>
+            <p><br>An internal stylesheet is where you don't have an external CSS file, but instead place your CSS inside a <strong>style</strong> element contained inside the HTML <strong>head</strong>.
+                <br><br>So the HTML would look like this:</p>
+            <img class="ex4" src="css_p1/pic6.png" alt="Example 2">
+            <h6>Inline styles</h6>
+            <p><br>>Inline styles are CSS declarations that affect one element only, contained within a style attribute:</p>
+            <img class="ex5" src="css_p1/pic7.png" alt="Example 2">
+            <p><br>Please don't do this, unless you really have to! It is really bad for maintenance (you might have to update the same information multiple times per document), and it also mixes your presentational CSS information with your HTML structural information, making the code harder to read and understand. Keeping different types of code separated makes for a much easier job for all who work on the code.
+                There are a few places where inline styles are more common, or even advisable. You might have to resort to using them if your working environment is really restrictive (perhaps your CMS only allows you to edit the HTML body). You will also see them used a lot in HTML email in order to get compatibility with as many email clients as possible.</p>
+        </div>
+
+    </body>

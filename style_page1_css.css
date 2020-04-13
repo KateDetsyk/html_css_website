@@ -1,0 +1,147 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image: url(main_css.png);
+	height: 100vh;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: right;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 15px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.act a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover 
+{
+	border: 1px solid white;
+}
+
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.logo img.big
+{
+	width: 109px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+body
+{
+	font-family: monospace;
+	/*text-align: center;*/
+}
+
+/*.row
+{
+	max-width: 1200px;
+	margin: auto;
+}*/
+
+.button
+{
+	float: right;
+	margin-top: 200px;
+}
+
+.btn
+{
+	display: list-item;
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-family: monospace;
+	background-color: royalblue;
+}
+
+.btn:hover
+{
+	background-color: rgb(115, 196, 196);
+	transition: all 0.8s ease-in;
+}
+
+.more{
+	background-color: royalblue;
+	border: none;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+.btn-one{
+	margin-top: 20px;
+}
+
+
+.hero
+{
+	position: absolute;
+	width: 1200px;
+    font-family: monospace;
+	margin-left: 0px;
+	margin-top: 0px;
+	/*text-align: center;*/
+}
+
+h1
+{
+	color: royalblue;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 30px;
+	/*text-align: center;*/
+	margin-top: 150px;
+	margin-left: 320px;
+}
+
+p{
+	margin-top: 50px;
+	color: black;
+	font-family: monospace;
+	font-size: 17px;
+	margin-left: 100px;
+	margin-right: 400px;
+}

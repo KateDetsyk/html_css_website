@@ -4,6 +4,37 @@
 	padding: 0;
 }
 
+.menubar {
+	margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: tomato;
+    padding: 0 20px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.logo{
+    line-height: 100px;
+    float: left;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.menu{
+    float: right;
+	line-height: 100px;
+	font-family: sans-serif;
+}
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+	padding: 0 10px;
+	font-family: sans-serif;
+}
+
 header
 {
 	background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.4)),url(main2.png);
@@ -12,7 +43,7 @@ header
 	background-position: center;
 }
 
-.main-nav
+/* .main-nav
 {
 	float: right;
 	list-style: none;
@@ -41,9 +72,9 @@ header
 .main-nav li a:hover 
 {
 	border: 1px solid white;
-}
+} */
 
-.logo img
+/* .logo img
 {
 	width: 150px;
 	height: auto;
@@ -55,7 +86,7 @@ header
 	width: 109px;
 	height: auto;
 	float: left;
-}
+} */
 
 body
 {

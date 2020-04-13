@@ -4,6 +4,37 @@
 	padding: 0;
 }
 
+.menubar {
+	margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: tomato;
+    padding: 0 20px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.logo{
+    line-height: 100px;
+    float: left;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.menu{
+    float: right;
+	line-height: 100px;
+	font-family: sans-serif;
+}
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+	padding: 0 10px;
+	font-family: sans-serif;
+}
+
 header
 {
 	background-image: url(main_html.png);
@@ -14,7 +45,7 @@ header
 	background-position: right;
 }
 
-.main-nav
+/* .main-nav
 {
 	float: right;
 	list-style: none;
@@ -59,7 +90,7 @@ header
 	height: auto;
 	float: left;
 	margin-top: 10px;
-}
+} */
 
 body
 {
@@ -107,14 +138,13 @@ body
 	margin-top: 20px;
 }
 
-
 .hero
 {
 	position: absolute;
 	width: 1200px;
     font-family: monospace;
-	margin-left: 0px;
-	margin-top: 0px;
+	margin-left: 0;
+	margin-top: 0;
 	/*text-align: center;*/
 }
 
@@ -125,12 +155,12 @@ h1
 	font-family: monospace;
 	font-size: 30px;
 	/*text-align: center;*/
-	margin-top: 150px;
+	margin-top: 20px;
 	margin-left: 320px;
 }
 
 p{
-	margin-top: 50px;
+	margin-top: 10px;
 	color: black;
 	font-family: monospace;
 	font-size: 17px;

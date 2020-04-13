@@ -11,6 +11,36 @@ header
 	background-size: cover;
 	background-position: center;
 }
+.menubar {
+	margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: tomato;
+    padding: 0 20px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.logo{
+    line-height: 100px;
+    float: left;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.menu{
+    float: right;
+	line-height: 100px;
+	font-family: sans-serif;
+}
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+	padding: 0 10px;
+	font-family: sans-serif;
+}
 
 .main-nav
 {
@@ -82,9 +112,9 @@ h1
 {
 	color: white;
 	text-transform: uppercase;
-	font-size: 70px;
+	font-size: 40px;
 	/*text-align: center;*/
-	margin-top: 150px;
+	margin-top: 100px;
 	margin-left: 400px;
 }
 
@@ -143,7 +173,7 @@ p
 	font-family: monospace;
 }
 
-h2
+h3
 {
 	color: white;
 	text-transform: uppercase;

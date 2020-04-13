@@ -14,6 +14,37 @@ header
 	background-position: right;
 }
 
+.menubar {
+	margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 100px;
+    background-color: royalblue;
+    padding: 0 20px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.logo{
+    line-height: 100px;
+    float: left;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.menu{
+    float: right;
+	line-height: 100px;
+	font-family: sans-serif;
+}
+
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+	padding: 0 10px;
+	font-family: sans-serif;
+}
+
 .main-nav
 {
 	float: right;
@@ -133,12 +164,12 @@ h1
 	font-family: monospace;
 	font-size: 30px;
 	/*text-align: center;*/
-	margin-top: 150px;
+	margin-top: 20px;
 	margin-left: 320px;
 }
 
 p{
-	margin-top: 50px;
+	margin-top: 10px;
 	color: black;
 	font-family: monospace;
 	font-size: 17px;

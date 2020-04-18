@@ -45,53 +45,6 @@ header
 	background-position: right;
 }
 
-/* .main-nav
-{
-	float: right;
-	list-style: none;
-	margin-top: 15px;
-}
-
-.main-nav li
-{
-	display: inline-block;
-}
-
-.main-nav li a
-{
-	color: white;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-}
-
-.main-nav li.act a
-{
-	border: 1px solid white;
-}
-
-.main-nav li a:hover 
-{
-	border: 1px solid white;
-}
-
-.logo img
-{
-	width: 150px;
-	height: auto;
-	float: left;
-	margin-top: 10px;
-}
-
-.logo img.big
-{
-	width: 109px;
-	height: auto;
-	float: left;
-	margin-top: 10px;
-} */
-
 body
 {
 	font-family: monospace;
